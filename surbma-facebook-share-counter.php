@@ -1,12 +1,15 @@
 <?php
 
 /*
-Plugin Name: Surbma - Facebook Share Counter
-Plugin URI: http://surbma.hu/bovitmenyek/
+Plugin Name: Surbma | Facebook Share Counter
+Plugin URI: https://surbma.com/wordpress-plugins/
 Description: Facebook Share Counter Shortcode: [fb-counter url=""]
-Version: 1.0.2
+
+Version: 2.0
+
 Author: Surbma
-Author URI: http://surbma.hu/
+Author URI: https://surbma.com/
+
 License: GPL2
 */
 
@@ -30,4 +33,3 @@ function surbma_facebook_share_counter_shortcode( $atts ) {
     }
 }
 add_shortcode( 'fb-counter', 'surbma_facebook_share_counter_shortcode' );
-
